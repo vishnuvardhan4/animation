@@ -1,0 +1,51 @@
+.trans {
+    background-color: yellow;
+
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    /* transform: translate(50px, 100px); */
+    /* transform: rotate(20deg); */
+    transform: rotate(-20deg);
+}
+
+.transscale {
+    background-color: yellow;
+
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    transform: scale(2, 3);
+    margin: 200px;
+}
+
+.transscaledecrease {
+    margin: 20px;
+    background-color: yellow;
+    border: 1px solid red;
+
+    height: 50px;
+    width: 100px;
+    transform: translate(0.5, 0.5);
+}
+
+/*transition*/
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: width 2s, height 4s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
